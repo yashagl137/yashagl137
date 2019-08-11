@@ -293,6 +293,11 @@ width: 120px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+@media(max-width:768px){
+    .row-2{
+        grid-template-columns:1fr !important;
+    }
+}
 .ach-md-5{
     width:90% !important;
 }
