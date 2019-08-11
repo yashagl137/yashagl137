@@ -161,7 +161,7 @@ width: 120px;
 }
 @media(max-width:768px){
     .progress{
-        margin-bottom: 15px !important;
+        margin-bottom: 25px !important;
     }
 }
 .progress-bar {
