@@ -68,11 +68,10 @@ font-family: sans-serif;
     100%{transform: translateY(10px);}
 }
 
-/*-------------ABOUT-------*/
+/*-----------------------ABOUT-----------------------*/
 .about
 {
     padding-top: 100px;
-    padding-bottom: 50px;
 }
 
 .profile-img
@@ -237,10 +236,11 @@ width: 120px;
 }
 
 
-/*-------------RESUME--------------*/
+/*--------------------------RESUME----------------------*/
 
 .resume
 {
+    margin-top: -170px;
     padding-top: 50px;
     padding-bottom: 30px;
     background: #f9f9f9; 
@@ -299,7 +299,7 @@ width: 120px;
     z-index: 1;
 }
 
-/*-----------Achievements--------------*/
+/*------------------------Achievements-----------------------*/
 .ach{
     font-size: 45px;
 }
@@ -362,4 +362,119 @@ width: 120px;
 .services-box:hover p
 {
     color: #fff;
+}
+
+/*--------------Contact---------------------*/
+
+.contact
+{
+     padding-top: 50px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background1.jpg);
+    background-position: unset;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.contact-row{
+    height:0;
+    bottom:60px;
+    grid-template-columns:1fr 1fr 1fr;
+    position: relative;
+    margin: 0 auto;
+}
+.cont{
+    width:100% !important;
+}
+.contact .row
+{
+    font-size: 22px;
+}
+.contact .col-md-4 .fa
+{
+    padding: 10px;
+    font-size: 35px;
+}
+@media(max-width:768px)
+{
+    .cont-btn{
+        position: relative;
+        top:160px;
+    }
+    .contact{
+        height:50%;
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background2.jpg); 
+        background-position: top;
+        background-size: cover;
+    }
+}
+.contact .btn
+{
+    padding: 10px 25px 10px 25px;
+    margin: 15px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+}
+.contact .btn:focus
+{
+    box-shadow: none !important;
+}
+.cont{
+    margin:0 auto;
+
+}
+.contact .btn:hover
+{
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    transition: 0.6s;
+}
+.contact .btn .fa
+{
+    margin-right: 10px;
+}
+.footer
+{
+    background: #000;
+    height: 50px;
+    color: #fff;
+    padding-top: 10px;
+}
+.fa-heart-o
+{
+    color: red;
+}
+
+/*--------------SOCIAL-ICONS---------------------*/
+a{
+    text-decoration: none !important;
+    color:white !important;
+}
+.social-icons
+{
+ top: 50%;
+ transform: translateY(-50%);
+ position: sticky;
+ z-index: 1;
+ width: 80px;
+}
+.social-icons ul{
+padding: initial;
+}
+.social-icons ul li
+{
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: #fff;
+    background: #000;
+}
+.social-icons ul li:hover
+{
+    padding-left: 30px;
+    width: 80px;
+    transition: 1s;
 }
