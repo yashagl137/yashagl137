@@ -537,3 +537,6 @@ padding: initial;
     width: 80px;
     transition: 1s;
 }
+.footer-text{
+    margin-bottom:0px;
+}
