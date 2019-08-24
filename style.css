@@ -41,6 +41,11 @@ h1{
         font-size:25px;
     }
 }
+@media(max-width:480px){
+    .home-title{
+        left:5%;
+    }
+}
 .home-title head-name{
     font-size:50px;
 }
@@ -189,10 +194,6 @@ width: 120px;
 .nav-link
 {
     color: #fff !important;
-}
-.row{
-    display:grid !important;
-  grid-template-columns: 1fr 1fr;
 }
 @media(max-width:500px){
     .row{
@@ -434,42 +435,21 @@ width: 120px;
     background-attachment: fixed;
     color: #fff;
 }
-.contact-row{
-    height:0;
-    bottom:60px;
-    grid-template-columns:1fr 1fr 1fr;
-    position: relative;
-    margin: 0 auto;
-}
-.cont{
-    width:100% !important;
-}
+
 .contact .row
 {
+    padding: 30px 0;
     font-size: 22px;
 }
 .contact .col-md-4 .fa
 {
     padding: 10px;
-    font-size: 35px;
-}
-@media(max-width:768px)
-{
-    .cont-btn{
-        position: relative;
-        top:160px;
-    }
-    .contact{
-        height:50%;
-        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background2.jpg); 
-        background-position: top;
-        background-size: cover;
-    }
+    font-size: 40px;
 }
 .contact .btn
 {
     padding: 10px 25px 10px 25px;
-    margin: 15px;
+    margin: 5px;
     border-radius: 30px;
     border: 2px solid #fff;
     background: transparent;
@@ -477,10 +457,6 @@ width: 120px;
 .contact .btn:focus
 {
     box-shadow: none !important;
-}
-.cont{
-    margin:0 auto;
-
 }
 .contact .btn:hover
 {
@@ -492,6 +468,8 @@ width: 120px;
 {
     margin-right: 10px;
 }
+
+
 .footer
 {
     background: #000;
